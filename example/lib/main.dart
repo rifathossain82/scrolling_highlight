@@ -1,4 +1,5 @@
-import 'package:example/homepage.dart';
+
+import 'package:scrolling_highlight/scrolling_highlight.dart';
 import 'package:flutter/material.dart';
 
 void main(){
@@ -12,7 +13,23 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Homepage(),
+      home: Scaffold(
+        appBar: AppBar(
+          title: const Text('Scrolling Highlight Demo'),
+        ),
+        body: ScrollingHighlight(
+          showHighlight: true,
+          child: ListView.builder(
+            itemCount: 30,
+            itemBuilder: (context, index){
+              return ListTile(
+                title: Text('Jamal Uddin'),
+                subtitle: Text('Flutter App Developer'),
+              );
+            },
+          ),
+        ),
+      ),
     );
   }
 }

@@ -6,11 +6,13 @@
 When you create a listview in Flutter and scroll up and down you will find a highlight color in both.
 To remove ListView highlight color in Flutter you can use it. It is simple and helpful.
 
-<h2> Highlight color in the top of the screen </h2>
+See this 2 screenshots. You can hide this highlight color by this package
+
+<h3> Highlight color in the top of the screen </h3>
 
 <img src = "https://user-images.githubusercontent.com/88751768/190955684-9c77d2e4-1c45-4199-8751-6fb826c07b4f.png" alt = "" height = "640" width = "360x"/>
 
-<h2> Highlight color in the bottom of the screen </h2>
+<h3> Highlight color in the bottom of the screen </h3>
 
 <img src = "https://user-images.githubusercontent.com/88751768/190955688-687a8524-51d7-4402-9a72-11b1c7a62803.png" alt = "" height = "640" width = "360x"/>
 
